@@ -1,0 +1,101 @@
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates a grid with 4 equal columns */
+  gap: 10px; /* Space between buttons */
+}
+
+.button {
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin: 5px;
+  background-color: #333333; /* Dark gray for number buttons */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Circular buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.button:hover {
+  background-color: #606060;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+  background-color: #707070;
+  transform: scale(0.95);
+}
+
+.button.cero {
+  grid-column: span 2; /* Spans two columns */
+  border-radius: 30px; /* Oval shape for zero button */
+  background-color: #333333;
+}
+
+.button.operator {
+  background-color: #ff9500; /* Orange for operator buttons */
+  color: white;
+}
+
+.button.operator:hover {
+  background-color: #ffab40;
+}
+
+.button.operator:active {
+  background-color: #cc7700;
+}
+
+.button.clear {
+  background-color: #a5a5a5; /* Light gray for clear button */
+  color: black;
+}
+
+.button.clear:hover {
+  background-color: #b5b5b5;
+}
+
+.button.clear:active {
+  background-color: #858585;
+}
+
+.button.equal {
+  background-color: #ff9500; /* Same as operator for consistency */
+  color: white;
+}
+
+.button.equal:hover {
+  background-color: #ffab40;
+}
+
+.button.equal:active {
+  background-color: #cc7700;
+}
+
+.button.secondary {
+  background-color: #a5a5a5; /* Light gray for secondary buttons */
+  color: black;
+}
+
+.button.secondary:hover {
+  background-color: #b5b5b5;
+}
+
+.button.secondary:active {
+  background-color: #858585;
+}

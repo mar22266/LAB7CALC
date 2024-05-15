@@ -1,0 +1,16 @@
+.display {
+  display: flex;
+  justify-content: flex-end;  /* Align text to the right */
+  align-items: center;  /* Vertically center the text */
+  height: 60px;          
+  font-size: 36px;  /* Slightly larger font size for better visibility */
+  background-color: #ffffff; 
+  border: 2px solid #007bff;  /* Updated border color */
+  border-radius: 12px;  /* Rounded corners */
+  margin-bottom: 20px;            
+  padding: 0 10px;  /* Added padding for spacing */
+  box-sizing: border-box; 
+  color: #333333;  /* Updated text color */
+  font-family: 'Roboto', sans-serif;  /* Updated font */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Added box shadow for depth */
+}

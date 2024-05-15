@@ -1,8 +1,10 @@
 # React + Vite Project
 
-Welcome to the React + Vite project! This template provides a minimal setup to get React working with Vite, featuring Hot Module Replacement (HMR) and ESLint integration.
+Welcome to the React + Vite project! This template provides a minimal setup to get React working with Vite.
 
-## Table of Contents
+# Url of calculator
+
+https://sprightly-crumble-8db2dd.netlify.app/
 
 - [Getting Started](#getting-started)
 - [Available Scripts](#available-scripts)

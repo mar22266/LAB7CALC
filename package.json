@@ -29,6 +29,7 @@
     ]
   },
   "dependencies": {
+    "converge": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -58,6 +59,7 @@
     "prop-types": "^15.8.1",
     "storybook": "^8.1.0",
     "vite": "^5.2.0",
-    "vitest": "^1.6.0"
+    "vitest": "^0.32.0",
+    "@vitest/coverage-c8": "^0.32.4"
   }
 }

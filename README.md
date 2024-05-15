@@ -6,6 +6,9 @@ Welcome to the React + Vite project! This template provides a minimal setup to g
 
 https://sprightly-crumble-8db2dd.netlify.app/
 
+
+
+
 - [Getting Started](#getting-started)
 - [Available Scripts](#available-scripts)
 - [Project Structure](#project-structure)

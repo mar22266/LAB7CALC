@@ -1,0 +1,72 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build output
+dist
+dist-ssr
+build
+
+# Vite output
+.vite
+*.local
+
+# Static files
+public
+
+# Storybook
+.storybook
+storybook-static
+*.story.*
+.storybook/
+
+# Test coverage
+coverage
+*.lcov
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~ # backup files
+*.bak # backup files
+*.tmp # temporary files
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+*.lock
+*.tgz
+package-lock.json
+yarn.lock
+.pnp.*
+.pnpjs
+.eslintcache
+.parcel-cache
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# System files
+Thumbs.db
+Desktop.ini

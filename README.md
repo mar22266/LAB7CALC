@@ -1,2 +1,2 @@
-# lab7calc
-calculadora tests on js
+# LAB7CALC
+tests on calculator js
